@@ -8,8 +8,11 @@ interface BaseButtonProps {
 
 export default function BaseButton({ type, children }: BaseButtonProps) {
   return (
-    <button className={`${styles.button} ${styles[type]}`}>
-      {children}
-    </button>
+    <div>
+        <button className={`${styles.button} ${styles[type]}`}>
+        {children}
+        </button>
+    </div>
+    
   );
 }

@@ -1,0 +1,24 @@
+.p {
+    padding: 10px 20px;
+    border-radius: 4px;
+    color: white;
+    border: none;
+    margin-left: 50px;
+    width: 250px;
+  }
+  
+  .info {
+    background-color: lightblue; /* Blue */
+  }
+  
+  .success {
+    background-color: lightgreen; /* Green */
+  }
+  
+  .warning {
+    background-color: lightsalmon; /* Orange */
+  }
+  
+  .error {
+    background-color: lightcoral; /* Red */
+  }

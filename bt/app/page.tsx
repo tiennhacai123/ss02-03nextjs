@@ -6,7 +6,8 @@ import B5 from './B5'
 import B6 from './B6'
 import B7 from './B7'
 import Pagination from './Pagination'
-
+import B9 from './B9'
+import B10 from './B10'
 export default function page() {
   return (
     <div>
@@ -17,6 +18,8 @@ export default function page() {
       <B6></B6>
       <B7></B7>
       <Pagination></Pagination>
+      <B9></B9>
+      <B10></B10>
     </div>
   )
 }

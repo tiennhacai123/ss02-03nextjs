@@ -22,7 +22,7 @@ export default function Pagination() {
       setCurrentPage(currentPage + 1);
     }
   };
-
+  
   return (
     <ul className={styles.pagination}>
         <b>B8</b>
